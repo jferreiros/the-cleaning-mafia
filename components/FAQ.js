@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import faqContent from '../content/FAQ.json';
+import faqContent from '../content/faq.json';
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);

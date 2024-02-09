@@ -1,6 +1,6 @@
 // components/HeroSection01.js
 import React from 'react';
-import heroSectionContent from '../content/Hero01.json';
+import heroSectionContent from '../content/hero01.json';
 
 export default function Hero01() {
   return (

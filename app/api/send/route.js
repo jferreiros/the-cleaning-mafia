@@ -6,6 +6,16 @@ import { EmailTemplate } from '../../../components/EmailTemplate'; // Adjust the
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req, res) {
+  // Set CORS headers
+  res.setHeader('Access-Control-Allow-Origin', '*'); // Consider specifying domains in production
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  // Handle preflight request for CORS
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
 

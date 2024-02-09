@@ -13,10 +13,10 @@ export default function Contact() {
     // Prepare the data to be sent
     const formData = { email, message };
 
-    
+
     try {
       // Send data to your API route
-      const response = await fetch('/api/send/route', { // Ensure the URL matches your API route
+      const response = await fetch('/api/send', { // Ensure the URL matches your API route
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

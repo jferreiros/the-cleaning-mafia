@@ -1,8 +1,10 @@
-export function EmailTemplate({ firstName }) {
-  return (
-    <div>
-      <h1>Hello, {firstName}!</h1>
-      <p>Welcome to our service. We are glad you are here!</p>
-    </div>
-  );
-}
+import * as React from 'react';
+
+
+export const EmailTemplate = ({
+  firstName,
+}) => (
+  <div>
+    <h1>Welcome, {firstName}!</h1>
+  </div>
+);

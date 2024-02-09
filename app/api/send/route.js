@@ -1,49 +1,20 @@
-// Import Resend and your email template
+import { EmailTemplate } from '../../../components/EmailTemplate';
+import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { EmailTemplate } from '../../../components/EmailTemplate'; // Adjust the path as necessary
 
-// Initialize Resend with your API key
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(req, res) {
-  // Set CORS headers
-  res.setHeader('Access-Control-Allow-Origin', '*'); // Consider specifying domains in production
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+export async function POST() {
+  try {
+    const data = await resend.emails.send({
+      from: 'Acme <onboarding@resend.dev>',
+      to: ['delivered@resend.dev'],
+      subject: 'Hello world',
+      react: EmailTemplate({ firstName: 'John' }),
+    });
 
-  // Handle preflight request for CORS
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
-  }
-
-  if (req.method === 'POST') {
-    const { name, email, message } = req.body;
-
-    // Simple validation
-    if (!email || !email.includes('@') || !name || !message) {
-      return res.status(400).json({ error: 'Missing or invalid fields' });
-    }
-
-    try {
-      // Use your email template component, passing in any props it needs
-      const emailContent = EmailTemplate({ firstName: name }); // Adjust as needed
-
-      // Send the email
-      const data = await resend.emails.send({
-        from: 'Your Company <onboarding@yourcompany.com>',
-        to: [email], // Send to the email address provided in the form
-        subject: 'Welcome to Our Service!',
-        react: emailContent,
-      });
-
-      // Respond with success
-      res.status(200).json({ message: 'Form submitted successfully!', data });
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ error: 'Failed to send email' });
-    }
-  } else {
-    res.setHeader('Allow', ['POST']);
-    res.status(405).end(`Method ${req.method} Not Allowed`);
+    return NextResponse.json(data);
+  } catch (error) {
+    return NextResponse.json({ error });
   }
 }

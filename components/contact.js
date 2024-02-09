@@ -11,7 +11,7 @@ export default function Contact() {
     e.preventDefault();
 
     // Prepare the data to be sent
-    const formData = { email, message };
+    const formData = { name : 'Juan', email, message, form: 'Contact Form' };
 
 
     try {

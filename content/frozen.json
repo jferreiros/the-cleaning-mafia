@@ -1,0 +1,101 @@
+{
+    "title": "Frozen Empanadas for Restaurants & Bars",
+    "components": {
+      "header": {
+        "logo": {
+          "src": "/images/kiki-empanadas-logo.png",
+          "alt": "Kiki Empanadas Logo"
+        },
+        "navItems": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Menu",
+            "href": "/menu"
+          },
+          {
+            "label": "Wholesale",
+            "href": "/wholesale"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "cta": {
+          "text": "Order Now",
+          "href": "/wholesale-order"
+        }
+      },
+      "hero03": {
+        "title": "Elevate Your Menu with Authentic Argentinian Empanadas",
+        "subtitle": "Discover the convenience and taste of our frozen empanadas.",
+        "cta": "Explore Flavors",
+        "backgroundImage": "/images/frozen-empanadas-hero.jpg"
+      },
+      "featureSection": {
+        "title": "Why Kiki Empanadas?",
+        "features": [
+          {
+            "icon": "/images/icons/easy-prep.svg",
+            "text": "Easy Preparation"
+          },
+          {
+            "icon": "/images/icons/high-quality.svg",
+            "text": "High-Quality Ingredients"
+          },
+          {
+            "icon": "/images/icons/unique-flavors.svg",
+            "text": "Unique Flavors"
+          }
+        ],
+        "imageUrl": "/images/empanadas-feature.jpg",
+        "imageAlt": "Kiki Empanadas Flavors"
+      },
+      "testimonials": {
+        "title": "Our Partners Love Us",
+        "testimonials": [
+          {
+            "feedback": "Adding Kiki's empanadas to our menu was a game-changer. Easy to prepare and our customers love them!",
+            "author": "Danny, Bar Owner"
+          },
+          {
+            "feedback": "The variety of flavors means there's something for everyone. They've become a favorite at our restaurant.",
+            "author": "Lisa, Restaurant Manager"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Delight Your Customers?",
+        "subtitle": "Contact us to place your wholesale order today.",
+        "buttonText": "Get Started",
+        "buttonLink": "/wholesale-contact"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "What are the storage requirements for the frozen empanadas?",
+            "answer": "Our empanadas should be stored in a freezer at 0°F (-18°C) until ready to prepare."
+          },
+          {
+            "question": "How long do the frozen empanadas take to prepare?",
+            "answer": "From frozen, the empanadas typically take about 20-25 minutes to bake in a conventional oven."
+          }
+        ]
+      },
+      "contact": {
+        "title": "Inquire About Wholesale Orders",
+        "subtitle": "Fill out the form below, and we'll get in touch with details on how to enhance your menu with our empanadas.",
+        "emailLabel": "Your Email",
+        "messageLabel": "Your Message",
+        "submitButton": "Submit Inquiry"
+      },
+      "footer": {
+        "copyright": "© 2024 Kiki Empanadas. All Rights Reserved."
+      }
+    }
+  }
+  

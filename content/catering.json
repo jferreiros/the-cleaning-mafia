@@ -1,0 +1,101 @@
+{
+    "title": "Catering Events with Kiki Empanadas",
+    "components": {
+      "header": {
+        "logo": {
+          "src": "/images/kiki-empanadas-logo.png",
+          "alt": "Kiki Empanadas Logo"
+        },
+        "navItems": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Menu",
+            "href": "/menu"
+          },
+          {
+            "label": "Catering",
+            "href": "/catering"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "cta": {
+          "text": "Inquire Now",
+          "href": "/contact"
+        }
+      },
+      "hero03": {
+        "title": "Elevate Your Event with Authentic Argentinian Empanadas",
+        "subtitle": "Delight your guests with a taste of Argentina.",
+        "cta": "Book Your Catering",
+        "backgroundImage": "/images/catering-hero.jpg"
+      },
+      "featureSection": {
+        "title": "Why Choose Kiki Empanadas for Your Catering Needs?",
+        "features": [
+          {
+            "icon": "/images/icons/customizable-menu.svg",
+            "text": "Customizable Menu Options"
+          },
+          {
+            "icon": "/images/icons/fresh-ingredients.svg",
+            "text": "Made with Fresh, High-Quality Ingredients"
+          },
+          {
+            "icon": "/images/icons/event-experience.svg",
+            "text": "Experienced in Catering for All Types of Events"
+          }
+        ],
+        "imageUrl": "/images/catering-feature.jpg",
+        "imageAlt": "Catering Service Highlights"
+      },
+      "testimonials": {
+        "title": "Happy Clients",
+        "testimonials": [
+          {
+            "feedback": "Kiki Empanadas made our corporate event a huge success. The variety and flavor of the empanadas were the talk of the night!",
+            "author": "Amanda R."
+          },
+          {
+            "feedback": "For my wedding, I wanted something unique and delicious. Kiki delivered beyond expectations. Absolutely recommend!",
+            "author": "Carlos & Maria"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Make Your Event Unforgettable?",
+        "subtitle": "Contact us today to discuss your catering needs.",
+        "buttonText": "Get in Touch",
+        "buttonLink": "/contact"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "How far in advance should I book catering services?",
+            "answer": "We recommend booking at least one month in advance, especially for larger events."
+          },
+          {
+            "question": "Can you accommodate dietary restrictions?",
+            "answer": "Yes, we offer a variety of options to accommodate dietary needs. Please discuss with us during your booking."
+          }
+        ]
+      },
+      "contact": {
+        "title": "Let’s Talk About Your Catering Needs",
+        "subtitle": "Fill out the form below, and we’ll get back to you as soon as possible.",
+        "emailLabel": "Your Email",
+        "messageLabel": "Message",
+        "submitButton": "Submit"
+      },
+      "footer": {
+        "copyright": "© 2024 Kiki Empanadas. All Rights Reserved."
+      }
+    }
+  }
+  

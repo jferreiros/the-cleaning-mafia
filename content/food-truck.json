@@ -1,0 +1,112 @@
+{
+    "title": "Kiki Empanadas Food Truck",
+    "components": {
+      "header": {
+        "logo": {
+          "src": "/images/kiki-empanadas-logo.png",
+          "alt": "Kiki Empanadas Logo"
+        },
+        "navItems": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Menu",
+            "href": "/menu"
+          },
+          {
+            "label": "Food Truck",
+            "href": "/food-truck"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "cta": {
+          "text": "Find Our Truck",
+          "href": "/food-truck#schedule"
+        }
+      },
+      "hero03": {
+        "title": "Find Kiki's Empanadas on the Go",
+        "subtitle": "Authentic Argentinian empanadas available around Orlando. Perfect for your next event or a quick delicious bite.",
+        "cta": "View Schedule",
+        "backgroundImage": "/images/food-truck-hero.jpg"
+      },
+      "featureSection": {
+        "title": "Why Our Food Truck?",
+        "features": [
+          {
+            "icon": "/images/icons/tasty.svg",
+            "text": "Delicious Variety"
+          },
+          {
+            "icon": "/images/icons/mobile.svg",
+            "text": "On-the-Go Convenience"
+          },
+          {
+            "icon": "/images/icons/event.svg",
+            "text": "Perfect for Any Event"
+          }
+        ],
+        "imageUrl": "/images/food-truck-features.jpg",
+        "imageAlt": "Why Choose Our Food Truck"
+      },
+      "schedule": {
+        "title": "Where to Find Us",
+        "description": "Check out our schedule to catch our food truck at a location near you, or book us for your next event.",
+        "locations": [
+          {
+            "date": "YYYY-MM-DD",
+            "location": "Location Name, Address",
+            "time": "HH:MM AM/PM - HH:MM AM/PM"
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Happy Customers",
+        "testimonials": [
+          {
+            "feedback": "The food truck was the highlight of our festival! Everyone loved the empanadas.",
+            "author": "Festival Organizer"
+          },
+          {
+            "feedback": "So glad I found Kiki's food truck. The empanadas are incredible, and the service is fantastic.",
+            "author": "Patron"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Book Our Food Truck for Your Event",
+        "subtitle": "Bring a unique culinary experience to your guests with Kiki Empanadas.",
+        "buttonText": "Inquire Now",
+        "buttonLink": "/contact"
+      },
+      "faq": {
+        "title": "FAQs",
+        "faqs": [
+          {
+            "question": "Can the food truck cater to dietary restrictions?",
+            "answer": "Yes, we offer a selection of empanadas that can accommodate various dietary needs. Please let us know in advance."
+          },
+          {
+            "question": "How much space does the food truck require?",
+            "answer": "Our food truck needs a flat, stable surface of at least 20 feet by 10 feet to operate safely and efficiently."
+          }
+        ]
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have questions or want to book our food truck? Fill out the form below!",
+        "emailLabel": "Your Email",
+        "messageLabel": "Message",
+        "submitButton": "Send Inquiry"
+      },
+      "footer": {
+        "copyright": "© 2024 Kiki Empanadas. All Rights Reserved."
+      }
+    }
+  }
+  

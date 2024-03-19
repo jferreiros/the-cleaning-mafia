@@ -1,0 +1,199 @@
+{
+  "title": "Home Page",
+  "components": {
+    "header": {
+      "logo": {
+        "src": "/images/logo_web.png",
+        "alt": "Company Logo"
+      },
+      "navItems": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "About",
+          "href": "/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "cta": {
+        "text": "Sign Up",
+        "href": "/signup"
+      }
+    },
+    "hero01": {
+      "title": "The Best Service",
+      "subtitle": "Find Us",
+      "cta": "Book Now"
+    },
+    "hero02": {
+      "title": "Another Great Service",
+      "subtitle": "We're Here For You",
+      "cta": "Learn More",
+      "image": "/images/hero.jpg"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What is the first question?",
+          "answer": "Here is the answer to the first question."
+        },
+        {
+          "question": "What is the second question?",
+          "answer": "Here is the answer to the second question."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "We'd love to hear from you",
+      "emailLabel": "Your Email",
+      "messageLabel": "Your Message",
+      "submitButton": "Send Message"
+    },
+    "about": {
+      "image": "/images/about_us.jpg",
+      "title": "About Us",
+      "content": "Here is some content about us. We do X, Y, and Z."
+    },
+    "heroContact": {
+      "image": "/images/about_us.jpg",
+      "title": "About Us",
+      "content": "Here is some content about us. We do X, Y, and Z.",
+      "titleContact": "Get in Touch",
+      "subtitle": "We'd love to hear from you",
+      "emailLabel": "Your Email",
+      "messageLabel": "Your Message",
+      "submitButton": "Send Message"
+    },
+    "testimonials": {
+      "title": "What Our Clients Are Saying",
+      "testimonials": [
+        {
+          "feedback": "I've used cleaning services before, but none compare to The Cleaning Mafia. They're thorough, professional, and my house has never felt more like a home.",
+          "author": "James Corbin"
+        },
+        {
+          "feedback": "The transformation is unbelievable. They don't just clean, they curate your space for ultimate comfort and relaxation. Highly recommend!",
+          "author": "Andrea L."
+        },
+        {
+          "feedback": "As a busy professional, I have little time for household chores. The Cleaning Mafia respects my schedule and always leaves my place spotless.",
+          "author": "Martin G."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "The Perks of Choosing The Cleaning Mafia",
+      "benefits": [
+        {
+          "title": "Customized Cleaning Plans",
+          "description": "Personalized services tailored to your lifestyle and cleaning preferences, ensuring your home is cleaned just the way you like it.",
+          "icon": "/images/icons/icon01.svg"
+        },
+        {
+          "title": "Eco-Friendly Products",
+          "description": "We use safe, sustainable cleaning products that protect your family’s health and the planet.",
+          "icon": "/images/icons/icon02.svg"
+        },
+        {
+          "title": "100% Satisfaction Guarantee",
+          "description": "Your happiness is our top priority. If you're not satisfied, we'll make it right—no questions asked.",
+          "icon": "/images/icons/icon03.svg"
+        }
+      ]
+    },
+    "process": {
+      "title": "Our Cleaning Process",
+      "steps": [
+        {
+          "phase": "1. Consult",
+          "description": "We start with a free in-home consultation to understand your cleaning needs and preferences. This personalized approach ensures that our services match your expectations."
+        },
+        {
+          "phase": "2. Clean",
+          "description": "Our trained professionals get to work using the latest techniques and eco-friendly products. Every room is given the attention it deserves, leaving your space immaculately clean."
+        },
+        {
+          "phase": "3. Perfect",
+          "description": "We finish by double-checking every area to ensure our high standards are met. You’ll receive a follow-up to confirm your complete satisfaction with our service."
+        }
+      ]
+    },
+    "subscribe": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Sign up to receive the latest news, info, and special discounts directly to your inbox!",
+      "buttonText": "Subscribe"
+    },
+    "pain": {
+      "question": "Is this you?",
+      "painPoints": [
+        "Structured copy",
+        "Structured copy"
+      ]
+    },
+    "clientLogos": {
+      "title": "Our Trusted Clients",
+      "logos": [
+        {
+          "src": "/logos/client1.png",
+          "alt": "Client 1 Logo"
+        },
+        {
+          "src": "/logos/client2.png",
+          "alt": "Client 2 Logo"
+        },
+        {
+          "src": "/logos/client3.png",
+          "alt": "Client 3 Logo"
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "© 2024 The Cleaning Mafia. All Rights Reserved."
+    },
+    "hero03": {
+      "title": "Welcome to Our Service",
+      "subtitle": "Quality cleaning tailored to your needs.",
+      "cta": "Learn More",
+      "backgroundImage": "/images/hero.jpg"
+    },
+    "featureSection": {
+      "title": "Managed Agency Hosting to Handle Multiple Projects",
+      "features": [
+        {
+          "icon": "/images/icons/icon01.svg",
+          "alt": "Deploy in Minutes",
+          "text": "Deploy in Minutes"
+        },
+        {
+          "icon": "/images/icons/icon02.svg",
+          "alt": "Manage Like a Pro",
+          "text": "Manage Like a Pro"
+        },
+        {
+          "icon": "/images/icons/icon03.svg",
+          "alt": "Experience Optimized Performance",
+          "text": "Experience Optimized Performance"
+        }
+      ],
+      "imageUrl": "/images/hero.jpg",
+      "imageAlt": "Feature Image Description"
+    },
+    "ctaSection": {
+      "title": "Save EXTRA With the Hosting Pricing Calculator!",
+      "subtitle": "Get a detailed cost comparison of the leading hosting providers for FREE. Find the optimum hosting solution that optimizes your savings.",
+      "buttonText": "CALCULATE NOW",
+      "buttonLink": "/pricing-calculator"
+    }
+  }
+}

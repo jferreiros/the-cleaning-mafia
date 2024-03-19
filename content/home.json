@@ -1,0 +1,122 @@
+{
+  "title": "Kiki Empanadas",
+  "components": {
+    "header": {
+      "logo": {
+        "src": "/images/kiki-empanadas-logo.png",
+        "alt": "Kiki Empanadas Logo"
+      },
+      "navItems": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Menu",
+          "href": "/menu"
+        },
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "cta": {
+        "text": "Order Now",
+        "href": "/order"
+      }
+    },
+    "hero03": {
+      "title": "Delicious Argentinian Empanadas in Orlando",
+      "subtitle": "Explore our variety of authentic flavors crafted with love.",
+      "cta": "View Menu",
+      "backgroundImage": "/images/empanadas-hero.jpg"
+    },
+    "featureSection": {
+      "title": "Our Flavors",
+      "features": [
+        {
+          "icon": "/images/icons/corn.svg",
+          "text": "Corn"
+        },
+        {
+          "icon": "/images/icons/ham-cheese.svg",
+          "text": "Ham & Cheese"
+        },
+        {
+          "icon": "/images/icons/beef.svg",
+          "text": "Beef"
+        },
+        {
+          "icon": "/images/icons/chilli-beef.svg",
+          "text": "Chilli Beef"
+        },
+        {
+          "icon": "/images/icons/chicken-cheese.svg",
+          "text": "Chicken & Cheese"
+        },
+        {
+          "icon": "/images/icons/spinach-cheese.svg",
+          "text": "Spinach & Cheese"
+        }
+      ],
+      "imageUrl": "/images/empanadas-feature.jpg",
+      "imageAlt": "A selection of Kiki Empanadas flavors"
+    },
+    "ctaCateringEvents": {
+      "title": "Catering for Events",
+      "subtitle": "Make your next event unforgettable with our empanada catering.",
+      "buttonText": "Learn More",
+      "buttonLink": "/catering"
+    },
+    "ctaFarmerMarket": {
+      "title": "Farmer Market - Coming Soon",
+      "subtitle": "Fresh empanadas coming to your local farmer's market.",
+      "buttonText": "Stay Updated",
+      "buttonLink": "/farmer-market"
+    },
+    "ctaFrozenEmpanadas": {
+      "title": "Frozen Empanadas for Restaurants & Bars",
+      "subtitle": "Supply your establishment with our ready-to-cook empanadas.",
+      "buttonText": "Order Now",
+      "buttonLink": "/wholesale"
+    },
+    "ctaFoodTruck": {
+      "title": "Find Our Food Truck",
+      "subtitle": "Discover where our food truck will be for delicious empanadas on the go.",
+      "buttonText": "Track Us",
+      "buttonLink": "/food-truck"
+    },
+    "about": {
+      "title": "About Kiki Empanadas",
+      "content": "Founded in Orlando, FL, Kiki Empanadas brings a taste of Argentina to your doorstep with our authentic, handcrafted empanadas. From traditional recipes to innovative flavors, we pride ourselves on quality and taste.",
+      "image": "/images/about-kiki.jpg"
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "testimonials": [
+        {
+          "feedback": "Every bite takes me back to Argentina - absolutely delicious and authentic!",
+          "author": "Maria G."
+        },
+        {
+          "feedback": "The catering service was a hit at my event! Everyone loved the variety of flavors.",
+          "author": "Ethan K."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "subtitle": "Questions, comments, or catering inquiries? We'd love to hear from you.",
+      "emailLabel": "Your Email",
+      "messageLabel": "Your Message",
+      "submitButton": "Send"
+    },
+    "footer": {
+      "copyright": "© 2024 Kiki Empanadas. All Rights Reserved."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+    "title": "Farmer Market - Coming Soon",
+    "components": {
+      "header": {
+        "logo": {
+          "src": "/images/kiki-empanadas-logo.png",
+          "alt": "Kiki Empanadas Logo"
+        },
+        "navItems": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Menu",
+            "href": "/menu"
+          },
+          {
+            "label": "Catering",
+            "href": "/catering"
+          },
+          {
+            "label": "Farmer Market",
+            "href": "/farmer-market"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ],
+        "cta": {
+          "text": "Subscribe for Updates",
+          "href": "#subscribe"
+        }
+      },
+      "hero02": {
+        "title": "Bringing Argentinian Flavors to Your Local Farmer Market",
+        "subtitle": "Fresh, authentic empanadas coming soon to a market near you!",
+        "cta": "Stay Informed",
+        "image": "/images/farmer-market-hero.jpg"
+      },
+      "about": {
+        "title": "Our Journey to the Farmer Market",
+        "content": "At Kiki Empanadas, we believe in bringing the community together through the love of food. Our journey to local farmer markets is an exciting step towards sharing our passion for Argentinian cuisine with more food enthusiasts. Stay tuned for our launch dates!",
+        "image": "/images/about-farmer-market.jpg"
+      },
+      "cta": {
+        "title": "Be the First to Know",
+        "subtitle": "Sign up to receive exclusive updates and launch dates for our farmer market stalls.",
+        "buttonText": "Subscribe Now",
+        "buttonLink": "#subscribe"
+      },
+      "subscribe": {
+        "title": "Subscribe for Farmer Market Updates",
+        "description": "Enter your email to stay updated on our farmer market presence and special offerings.",
+        "buttonText": "Subscribe"
+      },
+      "testimonials": {
+        "title": "What People Say About Us",
+        "testimonials": [
+          {
+            "feedback": "Kiki's empanadas are a staple at our family gatherings. Can't wait to grab them at the farmer market!",
+            "author": "Jenna E."
+          },
+          {
+            "feedback": "The best empanadas I've ever tasted! Looking forward to seeing Kiki Empanadas at my local market.",
+            "author": "Miguel D."
+          }
+        ]
+      },
+      "footer": {
+        "copyright": "© 2024 Kiki Empanadas. All Rights Reserved."
+      }
+    }
+  }
+  
